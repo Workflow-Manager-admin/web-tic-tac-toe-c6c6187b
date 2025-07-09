@@ -1,0 +1,27 @@
+:root {
+  --primary: #3498db;
+  --secondary: #2ecc71;
+  --accent: #e74c3c;
+  --text-main: #212529;
+  --bg-light: #f6fafd;
+  --board-bg: #ffffff;
+  --cell-hover: #eaf7ff;
+  --shadow: 0 2px 8px 0 rgba(52, 152, 219, 0.04);
+  --font-main: 'Inter', Arial, sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: var(--bg-light);
+  font-family: var(--font-main);
+}
+
+body {
+  padding: 0;
+  color: var(--text-main);
+}
+
+* {
+  box-sizing: border-box;
+}
